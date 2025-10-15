@@ -1,0 +1,23 @@
+# --- Normalize line endings (recommended for all text files) ---
+* text=auto eol=lf
+
+# --- Treat these as text files ---
+*.py text
+*.md text
+*.toml text
+*.yml text
+*.yaml text
+*.json text
+*.ini text
+*.cfg text
+
+# --- Prevent diff noise for common binary files ---
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+
+# --- Improve GitHub language stats ---
+poetry.lock linguist-generated=true
